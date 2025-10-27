@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Huawei80pro"
+             Title="HUAWEI PURA 80 PRO"
+                                     BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="HUAWEI PURA 80 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Claro, tenemos el elefante en la habitación aquí, la falta de servicios de Google, pero unas pocas instalaciones de MicroG aquí y allá, y un toque de la tienda Aurora, y este Pura 80 Pro es mucho más capaz que el dispositivo Android más capaz del mercado.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="pro800.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label Text="Ficha técnica del Huawei Pura 80 Pro"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+BorderColor="Gray"
+BackgroundColor="#5C5C5C"
+Padding="25"
+HasShadow="True"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+        Text="DIMENSIONES Y PESO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+        Text="163 x 76,1 x 8,3 mm 219 g"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+        Text="PANTALLA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+        Text="OLED de 6,8 pulgadas 2848 x 1276 píxeles LTPO 120 Hz, PWM 1440 Hz 300 Hz de muestreo táctil"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+        Text="PROCESADOR" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+        Text="Kirin 9020"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+        Text="MEMORIA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+        Text="12 GB LPDDR5X"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+        Text="ALMACENAMIENTO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+        Text="256 GB / 512 GB / 1 TB"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+        Text="CÁMARA PRINCIPAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+        Text="Principal: 50 MP de 1 pulgada, f/1.6–4.0 Gran angular: 40 MP, f/2.2, sensor multiespectral Telefoto: 48 MP, f/2.1"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+        Text="CÁMARA FRONTAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+        Text="13 MP f/2.0, gran angular"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+        Text="BATERÍA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+        Text="5.700mAh 100W por cable 80W inalámbricos 20 inalámbrico reversible"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+        Text="PRECIO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+        Text="Desde $1,300.00 "
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+            <Label 
+ Text="Como era de esperar, el Huawei Pura 80 Pro viene con EMUI 15. Se trata del sistema operativo Android rediseñado de la marca, y si lo compras fuera de China, esto es lo que obtienes. EMUI 15 no es realmente nada nuevo. Se lanzó en 2024 y tuvo un lanzamiento más amplio a principios de este año.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,20"/>
+            <Label 
+ Text="El Pura 80 Pro también viene con un cristal Kunlun de segunda generación mejorado. El Pro viene con un nuevo diseño Glazed que, debo decir, luce precioso. El esmalte crea una especie de brillo alrededor de toda la parte trasera del teléfono y realmente parece como si hubiera sido sumergido en vidrio líquido. Es una auténtica maravilla. Puedes conseguir los colores Glazed Red y Glazed Black en Sudáfrica.
+
+
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="proo8.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Aparte de eso, el Pura 80 Pro resultará familiar para la mayoría de los usuarios, salvo por el sistema de cámaras, claro. Su tacto es familiar, lo que significa que es fantástico sostenerlo; la pantalla es increíblemente brillante y vívida; la frecuencia de actualización de 120 Hz hace que todo se vea y se sienta intuitivo; se trata de una excelente pieza de tecnología.
+              "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

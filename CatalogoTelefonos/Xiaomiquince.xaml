@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Xiaomiquince"
+             Title="XIAOMI 15"
+             BackgroundColor="#1A1A47">
+    <ScrollView>
+    <VerticalStackLayout>
+            <Label Text="XIAOMI 15"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="La habitual renovación de la gama premium de Xiaomi trajo una pareja de móviles que aspiran a dominar 2025.el Xiaomi 15, una bestia con mayúsculas que se basta y se sobra para sobresalir en todos los aspectos, incluso en la contención de dimensiones. Y es de los primeros en traer de serie HyperOS 2 junto con toda la ración de IA que viene con HyperAI."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="quincee.jpg"
+    Aspect="AspectFill"
+    HeightRequest="340"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+
+            <Label Text="Ficha técnica del Xiaomi 15"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+BorderColor="Gray"
+BackgroundColor="#5C5C5C"
+Padding="25"
+HasShadow="True"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+        Text="DIMENSIONES Y PESO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+        Text="152,3 x 71,2 x 8,08 mm 191 gramos"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+        Text="PANTALLA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+        Text="AMOLED de 6,36 pulgadas Resolución 1.5K (1.200 x 2.670) Tasa de refresco de 120 Hz 3.200 nits"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+        Text="PROCESADOR" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+        Text="Snapdragon 8 Elite"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+        Text="MEMORIA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+        Text="12 GB LPDDR5X"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+        Text="ALMACENAMIENTO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+        Text="512 GB UFS 4.0"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+        Text="CÁMARA PRINCIPAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+        Text="Principal: 50 MP, f/1.6 Gran angular: 50 MP, f/2.2 Telefoto: 50 MP, f/2.0"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+        Text="CÁMARA FRONTAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+        Text="32 MP"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+        Text="BATERÍA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+        Text="5.240 mAh Carga rápida 90 W Carga inalámbrica 50 W"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+        Text="PRECIO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+        Text="Desde $1,000.00 "
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+
+            <Label 
+ Text="Se ve un auténtico gama premium y se siente como tal en la mano. El Xiaomi 15 está certificado con IP68, los botones quedan accesibles en el costado derecho (los de volumen no son muy cómodos de pulsar sosteniendo el móvil solo con una mano) y la bandeja de doble nano SIM, junto el USB C y el altavoz inferior estéreo, queda en la zona baja. Xiaomi mantiene correctamente la simetría."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Label 
+ Text="La parte posterior es lisa y con acabado en cristal endurecido que no se resbala en exceso. El módulo cuadrado fotográfico sobresale casi cuatro milímetros del cuerpo y tiene el inconveniente de que termina reteniendo todo el polvo debido a la estática."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="ximiquince.jpg"
+    Aspect="AspectFill"
+    HeightRequest="340"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="6,36 pulgadas de pantalla con resolución 1,5K, panel LTPO con refresco que alcanza los 120 Hz, hasta 3.600 nits de brillo pico, una calibración de color personalizable y vibrante que no se ve excesivamente saturada ni recién salido de fábrica. Todo con una gran nitidez y el altísimo contraste de una gran pantalla OLED."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Label 
+ Text="Con unos marcos mínimos, Xiaomi aprovecha la superficie del teléfono para colocar un panel que solo se ve enturbiado por el agujero de la pantalla. Respuesta instantánea al toque, muy fluido, personalizable en balance de blancos y saturación, con funciones extra de software (para mantener la pantalla encendida mientras se mira, por ejemplo) y perfecta para reproducir contenido multimedia."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="quinze.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="340"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="La calidad de la pantalla viendo vídeos o jugando en alta resolución es espléndida, incluso a plena luz del día: el panel del Xiaomi 15 es perfectamente visible bajo la luz directa del sol. A brillo mínimo puede cegar un poco en completa penumbra. Y el modo automático ajusta dicho brillo con rapidez y precisión."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

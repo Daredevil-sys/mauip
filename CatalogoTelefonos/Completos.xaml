@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Completos"
+             Title="2025"
+              BackgroundColor="#1A1A47">
+    <ScrollView>
+    <VerticalStackLayout>
+            <Label Text="XIAOMI 15 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="ximiultra.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El Xiaomi 15 Ultra es uno de los mejores móviles fotográficos del momento, una bestia capaz de rivalizar con propuestas de primera línea. Es, también, uno de los móviles más potentes del mercado, y aterriza con argumentos como su procesador, batería e inteligencia artificial para conquistar a los mejores."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+          
+                <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                    <!-- COLUMNA IZQUIERDA -->
+                    <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                        <!-- PUNTUACIÓN GENERAL -->
+                        <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                                <Label Text="8,9" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                            </Frame>
+                       
+                        </Grid>
+
+                        <!-- SUBPUNTUACIONES -->
+                        <VerticalStackLayout Spacing="12">
+
+                            <!-- Fila ejemplo -->
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="256.6676" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="8" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                            <Grid ColumnDefinitions="150,*,50">
+                                <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                                <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                    <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                                </Grid>
+                                <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                            </Grid>
+
+                        </VerticalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- COLUMNA DERECHA -->
+                    <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                        <!-- A FAVOR -->
+                        <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                            <VerticalStackLayout>
+                                <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                    <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                                </Frame>
+                                <VerticalStackLayout Padding="15" Spacing="8">
+                                    <Label Text="✓ La cámara, pese a sus fallos, es sencillamente espectacular" TextColor="Black"/>
+                                    <Label Text="✓ El rendimiento es increíble" TextColor="Black"/>
+                                    <Label Text="✓ Mucha personalidad en diseño y concepto" TextColor="Black"/>
+                                </VerticalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+
+                        <!-- EN CONTRA -->
+                        <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                            <VerticalStackLayout>
+                                <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                    <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                                </Frame>
+                                <VerticalStackLayout Padding="15" Spacing="8">
+                                    <Label Text="✗ La cámara es muy buena, pero hay que afinar algunos aspectos del procesado" TextColor="Black"/>
+                                    <Label Text="✗ HyperOS necesita menos bloatware" TextColor="Black"/>
+                                    <Label Text="✗ La IA está aún por explotar" TextColor="Black"/>
+                                </VerticalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+
+                    </VerticalStackLayout>
+
+                </Grid>
+        
+           <!--CORTE-->
+
+            <Label Text="SAMSUNG S25 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s25u.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El candidato a nuevo rey en Android es el Samsung Galaxy S25 Ultra. Un teléfono que llega acabado en titanio, con un objetivo periscópico de cinco aumentos y un rendimiento espectacular gracias a su nuevo procesador de Qualcomm. Un móvil sencillamente espectacular y una evolución lógica frente al modelo del año pasado, aunque no se diferencie demasiado de este último (ni falta que le hacía)."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+
+            <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                    <!-- PUNTUACIÓN GENERAL -->
+                    <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                        <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                            <Label Text="9,1" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <!-- SUBPUNTUACIONES -->
+                    <VerticalStackLayout Spacing="12">
+
+                        <!-- Fila ejemplo -->
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="311.6667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="284.1667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="8.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- COLUMNA DERECHA -->
+                <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                    <!-- A FAVOR -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✓ La duración de la bateria es... la autentica salud" TextColor="Black"/>
+                                <Label Text="✓ La pantalla es muy equilibrada y el tratamiento antirreflejos marca la diferencia" TextColor="Black"/>
+                                <Label Text="✓ La IA esta mas pulida que nunca y sin medias tintas, es la mejor que hay en un telefono" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- EN CONTRA -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✗ La cámara no ha evolucionado y empieza a quedarse atras respecto a sus rivales" TextColor="Black"/>
+                                <Label Text="✗ por alguna razon, su rendimiento sostenido no es excelente" TextColor="Black"/>
+                                <Label Text="✗ La configuracion de memorias es suficiente, pero no generosa" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <!--CORTE-->
+
+            <Label Text="OPPO FIND X8 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="oppopro.jpg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="OPPO regresa con su mejor gama alta. El Find X8 Pro es una bestia fuera de toda duda. Tiene el mejor procesador de MediaTek, una batería sencillamente brutal y unas cámaras que son la envidia de muchos de sus rivales.
+"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+
+            <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                    <!-- PUNTUACIÓN GENERAL -->
+                    <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                        <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                            <Label Text="9,3" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <!-- SUBPUNTUACIONES -->
+                    <VerticalStackLayout Spacing="12">
+
+                        <!-- Fila ejemplo -->
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="311.6667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="320.8333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="275.0000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="8.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="311.6667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- COLUMNA DERECHA -->
+                <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                    <!-- A FAVOR -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✓ Es uno de los gama alta más equilibrados del mercado." TextColor="Black"/>
+                                <Label Text="✓  La cámara es muy buena. Sólida, consistente, sin sorpresas." TextColor="Black"/>
+                                <Label Text="✓ El rendimiento es sencillamente brutal." TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- EN CONTRA -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✗ El software sigue siendo el punto a mejorar para OPPO." TextColor="Black"/>
+                                <Label Text="✗  La pantalla es excelente, pero no la más ambiciosa." TextColor="Black"/>
+                                <Label Text="✗  Un acabado más mate en lugar de tan glossy le sentaría genial" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <!--CORTE-->
+
+            <Label Text="HONOR MAGIC 7 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="honor.jpg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Una de las sorpresas del año es el Honor Magic6 Pro. Una brutal apuesta fotográfica que se sitúa entre lo mejor del mercado, con diferencia. Buen rendimiento, una ROM fluida (aunque algo particular) y un conjunto espectacular que no dejará indiferente a nadie. Lo mejor de Honor es una apuesta segura."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+
+            <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                    <!-- PUNTUACIÓN GENERAL -->
+                    <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                        <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                            <Label Text="9,3" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <!-- SUBPUNTUACIONES -->
+                    <VerticalStackLayout Spacing="12">
+
+                        <!-- Fila ejemplo -->
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="284.1667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="8.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="284.1667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="8.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- COLUMNA DERECHA -->
+                <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                    <!-- A FAVOR -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✓ Muy buen rendimiento" TextColor="Black"/>
+                                <Label Text="✓ Sistema de cámaras completo y divertido" TextColor="Black"/>
+                                <Label Text="✓  Un móvil muy equilibrado" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- EN CONTRA -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✗ El módulo de cámara es excesivamente grande" TextColor="Black"/>
+                                <Label Text="✗ Calidad-precio algo mejorable, teniendo en cuenta que el hardware de cámara no es el mejor del mercado" TextColor="Black"/>
+                             
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <!--CORTE-->
+
+            <Label Text="REALME GT7 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="reallme.jpg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Este es uno de los móviles de gama alta que cuesta menos de mil dolares, tiene buen sistema de cámaras y, sobre todo, una de las mejores baterías que he probado nunca en un móvil de gama alta. El Realme GT7 Pro lo tiene todo para ser el mejor gama alta en calidad-precio del mercado.
+"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+
+            <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                    <!-- PUNTUACIÓN GENERAL -->
+                    <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                        <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                            <Label Text="9,2" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <!-- SUBPUNTUACIONES -->
+                    <VerticalStackLayout Spacing="12">
+
+                        <!-- Fila ejemplo -->
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="311.6667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="320.8333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="265.8333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="8.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="320.8333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.75" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- COLUMNA DERECHA -->
+                <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                    <!-- A FAVOR -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✓  La autonomía. No hay discusión." TextColor="Black"/>
+                                <Label Text="✓  El diseño es muy elegante, adiós estridencias." TextColor="Black"/>
+                                <Label Text="✓  El rendimiento es prácticamente perfecto." TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- EN CONTRA -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✗  Sigue sin ser el más ambicioso en cámaras." TextColor="Black"/>
+                                <Label Text="✗  El apartado del sonido es bueno, pero no excelente." TextColor="Black"/>
+                                <Label Text="✗   El software sigue siendo la asignatura pendiente. " TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+            <!--CORTE-->
+
+            <Label Text="IPHONE 16 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="proapple.jpg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El iPhone 16 Pro es una propuesta que ha pecado de continuismo. El plan de Apple tiene sentido: refinar el producto una y otra vez hasta crear uno casi perfecto. El punto aquí es que a nivel de cámara, pantalla e inteligencia artificial, el resto de sus rivales está por delante de la propuesta de Apple.
+
+
+"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+
+            <Grid ColumnDefinitions="2*, 1.5*" Padding="20" ColumnSpacing="30" HorizontalOptions="Center" WidthRequest="1000">
+
+                <!-- COLUMNA IZQUIERDA -->
+                <VerticalStackLayout Grid.Column="0" Spacing="15">
+
+                    <!-- PUNTUACIÓN GENERAL -->
+                    <Grid ColumnDefinitions="Auto,Auto" Padding="0,0,0,10">
+                        <Frame BackgroundColor="#2E7D32" CornerRadius="5" Padding="25,10" HasShadow="False">
+                            <Label Text="9,2" FontSize="36" TextColor="White" FontAttributes="Bold"/>
+                        </Frame>
+
+                    </Grid>
+
+                    <!-- SUBPUNTUACIONES -->
+                    <VerticalStackLayout Spacing="12">
+
+                        <!-- Fila ejemplo -->
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Diseño" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Pantalla" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Rendimiento" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Cámara" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="311.6667" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.5" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Software" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="302.5000" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9.25" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                        <Grid ColumnDefinitions="150,*,50">
+                            <Label Text="Autonomía" TextColor="White" FontAttributes="Bold" Grid.Column="0" VerticalOptions="Center"/>
+                            <Grid Grid.Column="1" HeightRequest="6" BackgroundColor="#D0D0D0" VerticalOptions="Center">
+                                <BoxView Color="#2E7D32" WidthRequest="293.3333" HorizontalOptions="Start"/>
+                            </Grid>
+                            <Label Text="9" TextColor="White" Grid.Column="2" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+
+                <!-- COLUMNA DERECHA -->
+                <VerticalStackLayout Grid.Column="1" Spacing="25">
+
+                    <!-- A FAVOR -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#2E7D32" CornerRadius="0" Padding="10">
+                                <Label Text="A favor" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✓   La cámara, pese a que no hay evolución, sigue siendo imbatible en varios aspectos (vídeo, audio, LOG en ProRes, etc.)" TextColor="Black"/>
+                                <Label Text="✓  Es un iPhone más completo: un nuevo botón, funciones de audio, filtros, etc." TextColor="Black"/>
+                                <Label Text="✓   No subir los precios mantiene a Apple en una posición muy competitiva" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                    <!-- EN CONTRA -->
+                    <Frame BackgroundColor="White" CornerRadius="8" HasShadow="True" Padding="0">
+                        <VerticalStackLayout>
+                            <Frame BackgroundColor="#C62828" CornerRadius="0" Padding="10">
+                                <Label Text="En contra" TextColor="White" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                            <VerticalStackLayout Padding="15" Spacing="8">
+                                <Label Text="✗   El panel es prácticamente el mismo que el del año pasado. Y que el anterior." TextColor="Black"/>
+                                <Label Text="✗   Por más grafito que tenga el chasis, no hay forma de contener el throttling." TextColor="Black"/>
+                                <Label Text="✗   Esta no es la evolución que merecía el iPhone 15 Pro. Se queda claramente corta. " TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </VerticalStackLayout>
+                    </Frame>
+
+                </VerticalStackLayout>
+
+            </Grid>
+
+<!--prueba de commits-->
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

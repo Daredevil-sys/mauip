@@ -1,0 +1,185 @@
+is_global = true
+build_property.TargetFramework = net9.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CatalogoTelefonos
+build_property.ProjectDir = C:\Users\Admin\Desktop\MAUITLF\CatalogoTelefonos\CatalogoTelefonos\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Camaras.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Camaras.xaml
+build_metadata.AdditionalFiles.TargetPath = Camaras.xaml
+build_metadata.AdditionalFiles.RelativePath = Camaras.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Completos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Completos.xaml
+build_metadata.AdditionalFiles.TargetPath = Completos.xaml
+build_metadata.AdditionalFiles.RelativePath = Completos.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Huawei80pro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Huawei80pro.xaml
+build_metadata.AdditionalFiles.TargetPath = Huawei80pro.xaml
+build_metadata.AdditionalFiles.RelativePath = Huawei80pro.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Huawei80xaml.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Huawei80xaml.xaml
+build_metadata.AdditionalFiles.TargetPath = Huawei80xaml.xaml
+build_metadata.AdditionalFiles.RelativePath = Huawei80xaml.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/HuaweiP.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.HuaweiP.xaml
+build_metadata.AdditionalFiles.TargetPath = HuaweiP.xaml
+build_metadata.AdditionalFiles.RelativePath = HuaweiP.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Huaweip70.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Huaweip70.xaml
+build_metadata.AdditionalFiles.TargetPath = Huaweip70.xaml
+build_metadata.AdditionalFiles.RelativePath = Huaweip70.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/HuaweiP80Ultra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.HuaweiP80Ultra.xaml
+build_metadata.AdditionalFiles.TargetPath = HuaweiP80Ultra.xaml
+build_metadata.AdditionalFiles.RelativePath = HuaweiP80Ultra.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/quincetpro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.quincetpro.xaml
+build_metadata.AdditionalFiles.TargetPath = quincetpro.xaml
+build_metadata.AdditionalFiles.RelativePath = quincetpro.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/SamsungP.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.SamsungP.xaml
+build_metadata.AdditionalFiles.TargetPath = SamsungP.xaml
+build_metadata.AdditionalFiles.RelativePath = SamsungP.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Samsungs25.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Samsungs25.xaml
+build_metadata.AdditionalFiles.TargetPath = Samsungs25.xaml
+build_metadata.AdditionalFiles.RelativePath = Samsungs25.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Samsungs25edge.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Samsungs25edge.xaml
+build_metadata.AdditionalFiles.TargetPath = Samsungs25edge.xaml
+build_metadata.AdditionalFiles.RelativePath = Samsungs25edge.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Samsungs25plus.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Samsungs25plus.xaml
+build_metadata.AdditionalFiles.TargetPath = Samsungs25plus.xaml
+build_metadata.AdditionalFiles.RelativePath = Samsungs25plus.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Samsungs25ultra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Samsungs25ultra.xaml
+build_metadata.AdditionalFiles.TargetPath = Samsungs25ultra.xaml
+build_metadata.AdditionalFiles.RelativePath = Samsungs25ultra.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/VivoP.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.VivoP.xaml
+build_metadata.AdditionalFiles.TargetPath = VivoP.xaml
+build_metadata.AdditionalFiles.RelativePath = VivoP.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Vivox200.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Vivox200.xaml
+build_metadata.AdditionalFiles.TargetPath = Vivox200.xaml
+build_metadata.AdditionalFiles.RelativePath = Vivox200.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Vivox200fe.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Vivox200fe.xaml
+build_metadata.AdditionalFiles.TargetPath = Vivox200fe.xaml
+build_metadata.AdditionalFiles.RelativePath = Vivox200fe.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Vivox200pro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Vivox200pro.xaml
+build_metadata.AdditionalFiles.TargetPath = Vivox200pro.xaml
+build_metadata.AdditionalFiles.RelativePath = Vivox200pro.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Vivox200ultra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Vivox200ultra.xaml
+build_metadata.AdditionalFiles.TargetPath = Vivox200ultra.xaml
+build_metadata.AdditionalFiles.RelativePath = Vivox200ultra.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Xiaomiprincipal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Xiaomiprincipal.xaml
+build_metadata.AdditionalFiles.TargetPath = Xiaomiprincipal.xaml
+build_metadata.AdditionalFiles.RelativePath = Xiaomiprincipal.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Xiaomiquince.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Xiaomiquince.xaml
+build_metadata.AdditionalFiles.TargetPath = Xiaomiquince.xaml
+build_metadata.AdditionalFiles.RelativePath = Xiaomiquince.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Xiaomiquincepro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Xiaomiquincepro.xaml
+build_metadata.AdditionalFiles.TargetPath = Xiaomiquincepro.xaml
+build_metadata.AdditionalFiles.RelativePath = Xiaomiquincepro.xaml
+
+[C:/Users/Admin/Desktop/MAUITLF/CatalogoTelefonos/CatalogoTelefonos/Xiaomiquinceultra.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CatalogoTelefonos.Xiaomiquinceultra.xaml
+build_metadata.AdditionalFiles.TargetPath = Xiaomiquinceultra.xaml
+build_metadata.AdditionalFiles.RelativePath = Xiaomiquinceultra.xaml

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.HuaweiP"
+             Title="HUAWEI"
+                        BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="HUAWEI"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Huawei, fundada en 1987 en China como una empresa especializada en infraestructura de telecomunicaciones, dio sus primeros pasos en el mundo de los teléfonos móviles en 2003, cuando estableció su división de dispositivos. Durante sus primeros años, se enfocó en la fabricación de teléfonos básicos, muchos de ellos comercializados bajo marcas de operadoras como Vodafone o T-Mobile. Fue recién en 2009 cuando empezó a introducir smartphones con Android, siendo el Huawei U8220 uno de los primeros modelos destacados. Sin embargo, el verdadero salto de la compañía llegó con el lanzamiento del Huawei IDEOS en 2010, un smartphone asequible que le permitió ganar terreno en mercados emergentes y posicionarse como una marca de creciente relevancia.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="hevo.png"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Entre 2018 y 2019, Huawei alcanzó su punto más alto en el mercado global, compitiendo directamente con gigantes como Samsung y Apple. Modelos como el Huawei P20 Pro y el P30 Pro establecieron nuevos estándares en fotografía móvil, destacando por sus cámaras triples y sistemas de zoom avanzados. El Mate 20 Pro, por su parte, introdujo tecnologías como la carga inalámbrica inversa. Durante este periodo, Huawei llegó incluso a ocupar el primer lugar en ventas globales de smartphones en algunos trimestres, confirmando su posición como líder en innovación tecnológica.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+            <Label 
+ Text="Sin embargo, en mayo de 2019, la situación cambió drásticamente cuando el gobierno de Estados Unidos incluyó a Huawei en su lista de entidades restringidas, prohibiéndole el acceso a tecnologías clave, incluyendo los servicios de Google y ciertos componentes electrónicos como los chips de Qualcomm. Esta medida tuvo un fuerte impacto en su negocio de teléfonos, especialmente fuera de China. A raíz de esto, Huawei lanzó sus dispositivos sin acceso a Google Play ni a las aplicaciones tradicionales de Android en Occidente, lo que redujo significativamente su presencia internacional. En respuesta, la compañía aceleró el desarrollo de su propio ecosistema, incluyendo Huawei Mobile Services y la tienda de aplicaciones AppGallery, además de lanzar su propio sistema operativo HarmonyOS."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="Durante los años siguientes, Huawei mantuvo su actividad en el mercado chino y diversificó sus productos, enfocándose también en dispositivos plegables como el Mate X, así como en wearables y computadoras. En 2020, vendió su submarca Honor, buscando que esta pudiera operar sin las restricciones impuestas por EE. UU. A pesar de las limitaciones, Huawei no se detuvo, y en 2023 sorprendió al mundo al lanzar el Mate 60 Pro, un dispositivo que incorporaba conectividad 5G a través de un chip fabricado en China, el Kirin 9000S, marcando un avance significativo en la autosuficiencia tecnológica del país."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="Hoy en día, aunque su presencia internacional en telefonía móvil es más limitada que en su apogeo, Huawei continúa siendo una fuerza innovadora en el mercado chino y en regiones donde los servicios de Google no son esenciales. Su historia en el mundo de los smartphones es una muestra de resiliencia y adaptación, demostrando su capacidad para reinventarse frente a desafíos geopolíticos y tecnológicos, sin abandonar su enfoque en la calidad, el diseño y la innovación."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="A continuación te mostramos lo más reciente de la marca"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Grid WidthRequest="980"
+RowSpacing="40"
+ColumnSpacing="30"
+HorizontalOptions="Center"
+Margin="0,30,0,50">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Teléfono 1 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Huawei Pura 80 Ultra"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="uaweiegro.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Huaweipura80ultra"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 2 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Huawei Pura 80 Pro"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="pro80.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Huaweipura80pro"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 3 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Huawei Pura 80"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="hu80.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Huaweipura80"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 4 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Huawei Pura 70 Ultra"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="pura70ultra.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Huaweipura70"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

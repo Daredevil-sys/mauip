@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Xiaomiquincepro"
+             Title="XIAOMI 15 PRO"
+              BackgroundColor="#1A1A47">
+    <ScrollView>
+    <VerticalStackLayout>
+            <Label Text="XIAOMI 15 PRO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="El Xiaomi 15 Pro, hasta la llegada de un futurible Ultra, supone el mejor móvil que jamás haya presentado Xiaomi a nivel de hardware. Es el caballo grande, con pantalla de 6,73 pulgadas y resolución 2K. Su panel tiene una ligerísima curva -nada que ver con lo visto en generaciones anteriores- y mantiene los 3.200 nits de brillo máximo, el OLED y el LTPO para el refresco adaptativo."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="pro.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="340"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label Text="Ficha técnica del Xiaomi 15 Pro"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+    BorderColor="Gray"
+    BackgroundColor="#5C5C5C"
+    Padding="25"
+    HasShadow="True"
+        WidthRequest="1000"
+        HorizontalOptions="Center"
+    Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+            Text="DIMENSIONES Y PESO" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+            Text="161,3 x 75,3 x 8,35 mm 223 gramos"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+            Text="PANTALLA" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+            Text="Pantalla OLED LTPO flexible de 6,73 pulgadas Resolución de 2.670 x 1.200 píxeles Tasa de refresco de hasta 120 Hz Brillo máximo de 3.200 nits Tasa de muestreo táctil de hasta 300 Hz"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+            Text="PROCESADOR" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+            Text="Snapdragon 8 Elite"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+            Text="MEMORIA" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+            Text="12/16 GB LPDDR5X"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+            Text="ALMACENAMIENTO" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+            Text="256 GB/512 GB/1 TB UFS 4.0"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+            Text="CÁMARA PRINCIPAL" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+            Text="Principal: 50 MP, f/1.44 Gran angular: 50 MP, f/2.2 Telefoto periscópico: 50 MP, f/2.5"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+            Text="CÁMARA FRONTAL" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+            Text="32 MP"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+            Text="BATERÍA" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+            Text="6.110 mAh Carga rápida 120 W Carga inalámbrica 5 0W"
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+            Text="PRECIO" 
+            TextColor="LightGray"
+            FontFamily="oswald"
+            FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+            Text="Desde $1,200.00 "
+            TextColor="White"
+            FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+            <Label 
+ Text="En este caso los biseles no son simétricos, y son de 1,95mm. Es curioso cómo el frontal más moderno se ha reservado para el modelo Xiaomi 15, mientras este apuesta por la fórmula clásica: curvatura ligera y gran tamaño. Pese a ello, es un panel especialmente energético, con un consumo un 24% inferior al de la generación pasada."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Label 
+ Text="La batería es de 6.100mAh, 1.220mAh más respecto al modelo del año pasado. Una cifra absolutamente bárbara que lo sitúa como uno de los teléfonos con mayor autonomía del mercado."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="proo.jpg"
+    Aspect="AspectFill"
+    HeightRequest="340"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+            <Label 
+ Text="A nivel fotográfico, cuenta también con cámara principal y ultra gran angular de 50 megapíxeles, pero el teleobjetivo es en este caso de cinco aumentos."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Label 
+ Text="La carcasa del Xiaomi 15 Pro utiliza materiales de alta calidad y presume de una excelente calidad de construcción. La parte trasera, así como la delantera, están fabricadas con el cristal Dragon Crystal Glass de segunda generación propio de la compañía o Xiaomi Shield Glass (nombre internacional). Esto debería hacer que el teléfono insignia sea aún más resistente a los impactos. Un marco de aluminio redondea el exterior del Xiaomi 15 Pro, fusionándose a la perfección con el material de cristal. Esto hace que la carcasa se sienta súper agradable y homogénea en la mano."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

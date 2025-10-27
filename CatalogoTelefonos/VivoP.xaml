@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.VivoP"
+             Title="VIVO"
+                                   BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="VIVO"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="La historia de Vivo se remonta al año 2009 cuando la empresa fue establecida en China, con sede en Dongguan, provincia de Guangdong. 
+Wikipedia
++2
+Business Standard
++2
+ En sus inicios, la compañía pertenecía al conglomerado más amplio de la industria de electrónica china, aunque con el tiempo ha enfatizado que opera de forma independiente en I + D, diseño y software.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="vivoevo.png"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Durante los años siguientes, Vivo empezó a consolidar su presencia en China, introduciendo modelos que destacaban por diseño, pantalla, sonido o cámara. Por ejemplo, en 2013 lanzó el smartphone Xplay3S con pantalla con resolución 2K, lo cual era poco común entonces.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+            <Label 
+ Text="Tras afianzarse en el mercado chino, Vivo comenzó a mirar hacia fuera. Según los registros, la empresa empezó a expandirse notablemente en Asia y otros mercados a partir de 2014‑2015, y en 2020 anunció la entrada formal en Europa."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="A lo largo de los años, Vivo ha diversificado su catálogo de productos para llegar a distintos tipos de usuarios. Mientras que la serie X se enfoca en la gama alta con fotografía avanzada y diseños sofisticados, la serie V apunta al segmento medio-premium con buenas cámaras, pantallas y un balance de precio-rendimiento. También han tenido presencia en la gama media y de entrada con las series Y, que han sido muy populares en países en desarrollo por su buena duración de batería y construcción sólida. Además, Vivo ha trabajado continuamente en su sistema operativo, Funtouch OS (y más recientemente OriginOS), con el objetivo de ofrecer una experiencia Android fluida, visualmente atractiva y sin saturar al usuario con publicidad o apps basura."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="En los últimos años, Vivo ha consolidado su presencia en más de 60 países y ha llegado incluso al mercado europeo con modelos adaptados a las exigencias de los consumidores occidentales. A nivel global, ha estado entre las cinco marcas más vendidas del mundo en distintos momentos, compitiendo codo a codo con gigantes como Samsung, Apple, Xiaomi y OPPO. Este crecimiento también se ha traducido en logros notables: múltiples premios por diseño industrial, reconocimiento por innovación en fotografía móvil, y un posicionamiento fuerte en mercados donde los usuarios valoran mucho la calidad-precio."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="A continuación te mostramos lo más reciente de la marca"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Grid WidthRequest="980"
+RowSpacing="40"
+ColumnSpacing="30"
+HorizontalOptions="Center"
+Margin="0,30,0,50">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Teléfono 1 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Vivo X200 Ultra"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="vivox200ultra.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Vivox200ultra"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 2 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Vivo X200 Pro"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="vivox200prooo.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Vivox200pro"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 3 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Vivo X200"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="vivox200.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Vivox200"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 4 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Vivo X200 FE"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="vivox200fe.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Vivox200fe"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

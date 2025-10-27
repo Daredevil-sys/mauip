@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Xiaomiprincipal"
+             Title="XIAOMI"
+                BackgroundColor="#1A1A47">
+    <ScrollView>
+    <VerticalStackLayout>
+            <Label Text="XIAOMI"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+ <Label 
+ Text="Desde su fundación en 2010, Xiaomi se propuso revolucionar el mercado de la tecnología, y lo hizo principalmente a través de sus teléfonos móviles. Aunque al principio era conocida por su capa de personalización MIUI basada en Android, su incursión en el mundo de los smartphones comenzó oficialmente en 2011 con el lanzamiento del Xiaomi Mi 1. Este primer dispositivo llamó la atención por ofrecer especificaciones de gama alta a un precio notablemente bajo, estableciendo la filosofía de la marca: ofrecer tecnología de calidad al alcance de todos."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        
+ <Label 
+ Text="En los años siguientes, Xiaomi continuó lanzando teléfonos que equilibraban potencia y precio, como el Mi 2 y el Mi 3, consolidando su presencia en China. Sin embargo, el verdadero punto de inflexión llegó en 2013 con la creación de la línea Redmi, enfocada en la gama media-baja. Esta serie permitió a Xiaomi penetrar masivamente en el mercado, especialmente en países en desarrollo. Además, sus ventas se realizaban casi exclusivamente por internet, utilizando un modelo de ventas “flash” que generaba expectativas y agotaba existencias en minutos."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,10"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="ximi.jpg"
+    Aspect="AspectFill"
+    HeightRequest="400"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Durante 2022 y 2023, Xiaomi profundizó su apuesta en la fotografía móvil al establecer una alianza con la legendaria marca Leica, incorporando su experiencia óptica en modelos como el Xiaomi 12S Ultra y Xiaomi 13 Ultra. Estos dispositivos incluyeron sensores de gran tamaño, sistemas avanzados de lentes y modos de captura diseñados para fotógrafos profesionales, lo que los convirtió en referentes en este ámbito. Paralelamente, su línea Redmi Note seguía dominando la gama media, especialmente con modelos como el Note 11 y Note 12, que ofrecían características premium a precios accesibles."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,10"/>
+
+            <Label 
+ Text="Finalmente, en 2025, la compañía presentó el Xiaomi 15, impulsado por el chip Snapdragon 8 Elite, con avances notables en eficiencia, rendimiento gráfico y capacidades de inteligencia artificial. Este modelo representó la madurez total de la marca en la gama alta, con un diseño refinado, pantallas de última generación y un ecosistema cada vez más integrado."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,10"/>
+
+            <Label 
+ Text="En poco más de una década, Xiaomi pasó de ser un competidor emergente a una de las marcas líderes del mercado global de smartphones. Gracias a su estrategia de ofrecer tecnología avanzada a precios accesibles, combinada con innovación constante y una fuerte comunidad de usuarios, Xiaomi ha redefinido el acceso a los teléfonos inteligentes en todo el mundo."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,10"/>
+
+            <Label 
+ Text="A continuación te mostramos lo mas reciente de la marca: "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,10"/>
+
+            <!-- Cuadrícula con 4 imágenes verticales de teléfonos Xiaomi -->
+            <Grid WidthRequest="980"
+      RowSpacing="40"
+      ColumnSpacing="30"
+      HorizontalOptions="Center"
+      Margin="0,30,0,50">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Teléfono 1 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Xiaomi 15 Ultra"
+                           FontSize="18"
+                           FontFamily="oswald"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                            StrokeThickness="0">
+                        <Image Source="quinceultra.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350"
+                               WidthRequest="300"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnXiaomi15UltraTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 2 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Xiaomi 15 Pro"
+                           FontSize="18"
+                           FontFamily="oswald"
+                           TextColor="White"
+                           HorizontalTextAlignment="Center"
+                           Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                            StrokeThickness="0">
+                        <Image Source="quincepro.jpg"
+                               Aspect="AspectFill"
+                               HeightRequest="350"
+                               WidthRequest="300"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnXiaomi15ProTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 3 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Xiaomi 15"
+               FontSize="18"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                StrokeThickness="0">
+                        <Image Source="quince.jpg"
+                   Aspect="AspectFill"
+                   HeightRequest="350"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnXiaomi15Tapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 4 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Xiaomi 15T Pro"
+               FontSize="18"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                StrokeThickness="0">
+                        <Image Source="quincetpro.jpg"
+                   Aspect="AspectFill"
+                   HeightRequest="350"
+                   WidthRequest="300"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnXiaomi15tproTapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

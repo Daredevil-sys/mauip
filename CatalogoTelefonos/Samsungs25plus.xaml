@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Samsungs25plus"
+             Title="SAMSUNG S25+"
+                BackgroundColor="#1A1A47">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="SAMSUNG S25+"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="El Samsung Galaxy S25+ se presenta bastante continuista respecto a la generación anterior salvo por la llegada del procesador Snapdragon 8 Elite a su interior. Sin embargo también afina detalles en lo que es realmente importante para conseguir mantener un nivel sobresaliente como smartphone de gama alta con el extra de una IA que por fin nos ha parecido útil para el día a día y no solo como un truco de usar y tirar."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s25pl.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label Text="Ficha técnica del Samsung s25+"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+BorderColor="Gray"
+BackgroundColor="#5C5C5C"
+Padding="25"
+HasShadow="True"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+        Text="DIMENSIONES Y PESO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+        Text="158,4 x 75,8 x 7,3 mm 190 g"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+        Text="PANTALLA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+        Text="	6,7 pulgadas QHD+ 3.120 x 1.440 px Dynamic AMOLED 120 Hz"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+        Text="PROCESADOR" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+        Text="Snapdragon 8 Elite"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+        Text="MEMORIA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+        Text="12 GB LPDDR5X"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+        Text="ALMACENAMIENTO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+        Text="256 / 512 GB"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+        Text="CÁMARA PRINCIPAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+        Text="Principal: 50MP, f/1.8 Gran angular: 12MP, f/2.2 Teleobjetivo: 10MP, f/2.4, 3x"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+        Text="CÁMARA FRONTAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+        Text="12 MP, f/2.2"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+        Text="BATERÍA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+        Text="4.900 mAh Carga 45W Carga inalámbrica 15W"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+        Text="PRECIO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+        Text="Desde $1,100.00 "
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+            <Label 
+ Text="A priori no son muchas novedades que a simple vista puede apreciar un usuario cuando observa el nuevo Samsung Galaxy S25+. Ni haciéndolo  a conciencia. Tan solo en la parte trasera queda en evidencia que los anillos alrededor de las cámaras han cambiado, adoptando un diseño más contundente y que le sienta genial."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+            <Label 
+ Text="A nivel físico, el único cambio de los Samsung Galaxy S25+ es que ahora son más delgados. Parece increíble pero los datos no engañan. Son apenas unos milímetros pero dejan cifras de escándalo como los 7,3 mm de grosor del Samsung Galaxy S25+, lo que unido al peso de 190 gramos (6 gramos menos que el año pasado), lo hacen seguramente el mejor terminal en mano. Es tremendamente cómodo de usar durante todo el tiempo que queramos."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s25plus.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Más allá de las cifras, lo importante es que el diseño de marcos curvados facilitan el agarre y logran agradar mucho más al tacto. Eso sí, sin ser un terminal excesivo en mano, su suavidad hace que para algunos usuarios pueda resultar sea algo resbaladizo.
+              "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

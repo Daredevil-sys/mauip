@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Huawei80xaml"
+             Title="HUAWEI PURA 80"
+                                                BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="HUAWEI PURA 80"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Lo primero que llama la atención del Pura 80 es el diseño. El teléfono se siente premium desde el primer momento que lo tienes en la mano. El acabado trasero es elegante y el módulo de cámara tiene una forma distintiva que lo hace reconocible al instante (algo importante si te gusta que tu móvil se vea diferente). El peso es un poco elevado (un poco más de 210 gramos), pero eso también le da esa sensación de robustez que me gusta. No es un teléfono frágil.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="normal80.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label Text="Ficha técnica del Huawei Pura 80"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+BorderColor="Gray"
+BackgroundColor="#5C5C5C"
+Padding="25"
+HasShadow="True"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+        Text="DIMENSIONES Y PESO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+        Text="157,7 x 74,4 x 8,2 mm 211 g"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+        Text="PANTALLA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+        Text="OLED de 6,6 pulgadas 2760 x 1256 píxeles LTPO 120 Hz, 300 Hz de muestreo táctil"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+        Text="PROCESADOR" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+        Text="Kirin 9020"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+        Text="MEMORIA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+        Text="12 GB LPDDR5X"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+        Text="ALMACENAMIENTO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+        Text="256 GB / 512 GB / 1 TB"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+        Text="CÁMARA PRINCIPAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+        Text="Principal: 50 MP, f/1.4–4.0, OIS Gran angular: 13 MP, f/2.2 sensor multiespectral Telefoto: 12 MP, f/3.4, OIS"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+        Text="CÁMARA FRONTAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+        Text="13 MP f/2.0, gran angular"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+        Text="BATERÍA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+        Text="5.600 mAh 66 W cable 50 W inalámbrica"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+        Text="PRECIO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+        Text="Desde $1,000.00 "
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+            <Label 
+ Text="Pero donde realmente brilla este teléfono es en la fotografía. Huawei sigue demostrando por qué es uno de los grandes en este aspecto. La cámara principal de 50 MP con apertura variable captura fotos espectaculares. En condiciones de buena luz, los resultados son detallados, con colores fieles y buen rango dinámico. Pero lo que me sorprendió más fue el rendimiento en baja luz: incluso en escenas nocturnas o con luz tenue, las fotos salen muy limpias, sin tanto ruido, y con una nitidez sorprendente.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,20"/>
+            <Label 
+ Text="El ultra gran angular y el telefoto tipo periscopio con zoom óptico también cumplen muy bien. No son relleno: el zoom mantiene el detalle hasta cierto punto, y el gran angular tiene un campo de visión amplio sin deformar demasiado los bordes.
+
+
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="normal800.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="La pantalla OLED LTPO de 6,6 pulgadas es una delicia. Los colores son intensos, el brillo es altísimo (no tengo problemas para ver la pantalla bajo el sol) y los 120 Hz adaptativos hacen que todo se sienta suave, desde navegar por redes sociales hasta ver contenido multimedia. Huawei realmente ha hecho un buen trabajo aquí.
+              "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

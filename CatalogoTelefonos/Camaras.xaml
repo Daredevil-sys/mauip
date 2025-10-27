@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Camaras"
+             Title="CAMARAS"
+              BackgroundColor="#1A1A47">
+    <ScrollView>
+    <VerticalStackLayout>
+            <Label Text="HUAWEI PURA 80 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text=" El nuevo dispositivo insignia de Huawei combina hardware de vanguardia, incluyendo un sensor de 1 pulgada con tecnología LOFIC (Lateral OverFlow Integration Capacitor es un diseño de píxeles avanzado que tiene como objetivo aumentar el rango dinámico almacenando temporalmente el exceso de luz para evitar la saturación , al tiempo que mantiene un bajo ruido y suprime el riesgo de artefactos en áreas de movimiento que suelen ocurrir con la exposición múltiple), tenga en cuenta que algunos dispositivos como el Honor Magic 6 Ultimate ya presentaban este tipo de tecnología en el pasado. Además, tiene un sensor multiespectral para una mejor gestión del color y una apertura variable en la cámara principal. Una configuración de teleobjetivo dual con lentes de zoom óptico de 3,7x y 9,4x ofrece mucha flexibilidad al hacer zoom."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="purac.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="La cámara Pura 80 Ultra ofrece una calidad de imagen excepcional en cualquier situación. Destaca en el modo foto, con exposiciones brillantes y precisas, incluso en escenas con poca luz, una reproducción del color realista, incluso con luz mixta, gracias al sensor multiespectral, así como a un sistema de autoenfoque rápido y fiable."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="fotopura.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="huaweinoche.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <!--corte-->
+
+            <Label Text="VIVO X200 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+        
+            <Label 
+ Text="Ofrece un sistema de cámara original y completo que destaca entre la competencia. A diferencia de la mayoría de los teléfonos de la competencia, que utilizan una distancia focal más amplia de unos 25 mm, la cámara principal del Vivo cuenta con una inusual distancia focal equivalente a 35 mm, lo que lo convierte en una opción muy atractiva para la fotografía de retratos, gracias a una profundidad de campo más estrecha que ayuda a aislar al sujeto del fondo . Pero el Vivo X200 Ultra no solo es ideal para fotógrafos de retratos. El rendimiento general de su cámara lo convierte en uno de los mejores smartphones para fotografía en general."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="vivocamara.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El teleobjetivo de 200 MP ofrece una claridad impresionante, con detalles nítidos, poco ruido y mínima sobrenitidez hasta un factor de zoom de aproximadamente 10x. Gracias a la detección precisa del sujeto y al aislamiento natural del mismo, el teleobjetivo también es ideal para retratos. A la luz del día, ofrece una buena precisión de color y un amplio rango dinámico . A veces, se aprecia una ligera sobreexposición , pero las imágenes afectadas suelen tener buena calidad. Solo unos pocos teléfonos rivales superan al Vivo en el zoom tele, como por ejemplo el Xiaomi 15 Ultra, que es capaz de reproducir un poco más de detalle en ciertas condiciones."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="vivoc.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="vivoc1.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+        
+        <!--corte-->
+
+            <Label Text="XIAOMI 15 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Este nuevo buque insignia incorpora impresionantes especificaciones de imagen, incluyendo un total de cuatro sensores con una resolución de píxeles que va desde los 50 MP hasta la impresionante cifra de 200 MP, modos HDR para foto y vídeo , y una amplia gama de funciones y modos. En cuanto al hardware de la cámara, las principales mejoras respecto a su predecesor son la cantidad de píxeles del teleobjetivo (ahora con sensor de 200 MP) y el nuevo chipset Qualcomm Snapdragon 8 Elite."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="ultraa.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="Con poca luz, el Xiaomi 15 Ultra ofreció una experiencia de imagen excelente, gracias a un balance de blancos cálido y una impresionante reducción de ruido . La exposición fue impecable y el amplio rango dinámico garantizó un buen nivel de detalle tanto en las zonas de sombra como en las altas luces . Sin embargo, en ocasiones, los colores podían sobresaturarse y los matices de color cálidos podían afectar la imagen. Si bien el equilibrio entre la retención de textura y la reducción de ruido fue impresionante en las imágenes fijas, los vídeos con poca luz carecían de detalle y texturas finas. Al grabar vídeos en condiciones de poca luz, nuestros evaluadores también notaron algunos problemas de exposición y adaptación del color al cambiar el contenido de la escena."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="xiaomic1.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="xiaomic2.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <!--corte-->
+
+            <Label Text="IPHONE 16 PRO MAX"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Aunque el hardware principal de la cámara del Pro Max se mantuvo prácticamente sin cambios respecto al modelo anterior, Apple logró realizar mejoras en diversas áreas de calidad de imagen y rendimiento. En el modo de vídeo, el nuevo iPhone volvió a liderar nuestra clasificación gracias a sus excelentes resultados en las pruebas con resolución 4K y una velocidad de fotogramas variable de 60 fps . Además, el buque insignia de Apple incorpora un nuevo modo 4K/120 fps y una gama de modos Pro que permiten personalizar la configuración y que, por lo tanto, no están disponibles en los dispositivos de la competencia. En el modo foto, la cámara se benefició de un procesamiento mejorado y nuevas opciones de edición. Notamos especialmente una mejora en el rendimiento del color con la configuración predeterminada."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="promax.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El iPhone 16 Pro Max incluye un eficaz modo nocturno automático que permite capturar imágenes brillantes con un amplio rango dinámico, incluso en escenas con muy poca luz. Sin embargo, el ruido de imagen fue más intrusivo y los niveles de detalle fueron menores en las fotos nocturnas que en los mejores competidores, como el Huawei Pura 70 Ultra, factores que pueden ser relevantes para los fotógrafos exigentes."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="promaxc1.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="promaxc2.jpeg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+        
+<!--CORTE-->
+
+            <Label Text="SAMSUNG S25 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Además de un chipset mejorado (Snapdragon 8 Elite vs. Snapdragon 8 Gen 2) y una mayor cantidad de píxeles en la cámara ultra gran angular (50 MP vs. 12 MP), las especificaciones de hardware de la cámara son muy similares a las de su predecesor, el Galaxy S24 Ultra. Las mejoras en el rendimiento de imagen con respecto a su predecesor fueron modestas, a pesar de las ligeras mejoras en el procesamiento de software y algunas funciones adicionales de IA."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s2555.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El Samsung Galaxy S25 Ultra ofrece un impresionante rendimiento de teleobjetivo, aprovechando su versátil sistema de zoom periscópico para proporcionar imágenes nítidas y detalladas con zooms de medios a largos (hasta 10×). Mantiene una buena textura y contraste, lo que lo hace ideal para capturar sujetos distantes y retratos con una compresión de perspectiva natural. El autoenfoque es rápido y fiable en todos los rangos de zoom. Sin embargo, en el extremo del teleobjetivo, la suavidad y el ruido se hacen más evidentes, especialmente en condiciones de poca luz, y la retención de detalles finos puede disminuir en comparación con la competencia. En general, el módulo de teleobjetivo del S25 Ultra equilibra eficazmente la versatilidad y la calidad de imagen, aunque en ocasiones no alcanza el excelente rendimiento de zoom de rivales como el Oppo Find X8 Ultra y el Xiaomi 15 Ultra."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s25c1.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="s25c2.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+<!--corte-->
+
+            <Label Text="OPPO FIND X8 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="El OPPO Find X8 Ultra se posiciona como una opción muy atractiva para los entusiastas de la fotografía y los videógrafos móviles, estableciendo un nuevo referente en varias áreas críticas del rendimiento de la imagen móvil. Basándose en la sólida base del OPPO Find X8 Pro, el Find X8 Ultra presenta sensores y ópticas mejorados, y está equipado con el último chipset Qualcomm Snapdragon 8 Elite, que ofrece una fotografía computacional mejorada y capacidades de imagen en general."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="oppo.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El Find X8 Ultra también destaca por su nitidez consistente y su excelente retención de detalles. Incluso en escenas con poca luz o alto rango dinámico, la cámara mitiga eficazmente el ruido sin sacrificar la calidad de imagen. Esto es especialmente evidente en la fotografía de retrato, donde el dispositivo ofrece resultados detallados y naturales, evitando las texturas sobreprocesadas o poco naturales que a veces se ven en dispositivos de la competencia."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="oppoc1.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+                   BackgroundColor="White"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="oppoc2.jpg"
+    Aspect="AspectFill"
+    HeightRequest="600"
+    WidthRequest="450"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

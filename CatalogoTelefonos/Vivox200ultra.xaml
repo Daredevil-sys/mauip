@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.Vivox200ultra"
+             Title="VIVO X200 ULTRA"
+                       BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="VIVO X200 ULTRA"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Vivo supo revolucionar el ámbito de la fotografía en los móviles, la marca formó equipo con Zeiss para lograr un tándem de hardware y software que se hizo referencia. Y no está dispuesta a perder el podio: el Vivo X200 Ultra sube el nivel en lo que respecta a captura multimedia en smartphones. Es la respuesta al Xiaomi 15 Ultra, hasta tiene un kit fotográfico propio.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="vivoultra.jpg"
+    Aspect="AspectFill"
+    HeightRequest="500"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label Text="Ficha técnica del Vivo X200 Ultra"
+    FontSize="22"
+    FontAttributes="Bold"
+    TextColor="White"
+    HorizontalTextAlignment="Center"
+    FontFamily="oswald"
+    Margin="0,10"/>
+
+
+            <!-- Cuadro principal -->
+            <Frame CornerRadius="15"
+BorderColor="Gray"
+BackgroundColor="#5C5C5C"
+Padding="25"
+HasShadow="True"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+Margin="0,10, 0, 30">
+                <Grid RowSpacing="12" ColumnSpacing="15">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Fila 1 -->
+                    <Label Grid.Row="0" Grid.Column="0" 
+        Text="DIMENSIONES Y PESO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="0" Grid.Column="1"
+        Text="	
+163,14 x 76,76 x 8,69 mm
+
+229 gramos"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 2 -->
+                    <Label Grid.Row="1" Grid.Column="0" 
+        Text="PANTALLA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="1" Grid.Column="1"
+        Text="	
+Panel AMOLED de 6,82 pulgadas
+
+Resolución de 3.168 x 1.440 píxeles
+
+Refresco de 120 Hz"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 3 -->
+                    <Label Grid.Row="2" Grid.Column="0" 
+        Text="PROCESADOR" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="2" Grid.Column="1"
+        Text="Snapdragon 8 Elite"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 4 -->
+                    <Label Grid.Row="3" Grid.Column="0" 
+        Text="MEMORIA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="3" Grid.Column="1"
+        Text="	
+12/16 GB
+
+LPDDR5X"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 5 -->
+                    <Label Grid.Row="4" Grid.Column="0" 
+        Text="ALMACENAMIENTO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="4" Grid.Column="1"
+        Text="	
+256 GB / 512 GB / 1 TB
+
+UFS 4.1"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 6 -->
+                    <Label Grid.Row="5" Grid.Column="0" 
+        Text="CÁMARA PRINCIPAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="5" Grid.Column="1"
+        Text="	
+Principal: 50 MP, f/1.69, OIS
+
+Ultra gran angular: 50 MP, f/2.0, 116º
+
+Teleobjetivo: 200 MP, f/2.27, OIS"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 7 -->
+                    <Label Grid.Row="6" Grid.Column="0" 
+        Text="CÁMARA FRONTAL" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="6" Grid.Column="1"
+        Text="50 MP, f/2,45"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 8 -->
+                    <Label Grid.Row="7" Grid.Column="0" 
+        Text="BATERÍA" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="7" Grid.Column="1"
+        Text="	
+6.000 mAh
+
+Carga de 90 W (cable)
+
+Carga inalámbrica de 40 W"
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                    <!-- Fila 9 -->
+                    <Label Grid.Row="8" Grid.Column="0" 
+        Text="PRECIO" 
+        TextColor="LightGray"
+        FontFamily="oswald"
+        FontAttributes="Bold"/>
+                    <Label Grid.Row="8" Grid.Column="1"
+        Text="Desde $1,500.00 "
+        TextColor="White"
+        FontFamily="oswald"/>
+
+                </Grid>
+            </Frame>
+
+            <Label 
+ Text="Siendo una móvil representativo, estaba claro que Vivo iba a echarle carretadas de componentes de la máxima categoría. Porque no hay duda, el Vivo X200 Ultra es un gama premium de manual. Incluso en el exterior: cuerpo metálico, diseño con estrías, un módulo fotográfico circular sobresaliendo del cuerpo (no es giratorio) y botones extra dedicados a la captura. Sí, Vivo se ha fijado en el Control de Cámara de los iPhone.
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,20"/>
+            <Label 
+ Text=" Zeiss lleva colaborando con vivo desde hace unos años, y no solo en los móviles X, los de gama más alta: el tándem mejora la fotografía de la familia V, más accesible. Con unos resultados en el procesamiento de imagen que, en el caso del Vivo X200 Ultra, se ven potenciados por dos chips propios: los VS1 y V3+.
+
+
+
+                "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="1000"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="ultra200.jpg"
+    Aspect="AspectFill"
+    HeightRequest="390"
+    WidthRequest="1000"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El Vivo X200 Ultra es un telefonazo que más parece cámara que un móvil, pero no por ello iba a prescindir de una batería holgada: 6.000 mAh nada menos; que deberían extenderse con un uso moderado, el Snapdragon 8 Elite es muy eficiente. Incluye carga superrápida con cable de 90 W y carga inalámbrica rápida de hasta 40 W.
+              "
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

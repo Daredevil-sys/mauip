@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.SamsungP"
+             Title="SAMSUNG"
+               BackgroundColor="#1A1A47">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="SAMSUNG"
+                  
+ FontSize="22"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Center"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="0, 30"/>
+
+            <Label 
+ Text="Samsung, una empresa surcoreana fundada en 1938, comenzó en la industria de la electrónica en la década de 1960, pero no fue hasta los años 80 que incursionó en el mundo de las telecomunicaciones. En 1988, lanzó su primer teléfono móvil, el SH-100, un dispositivo analógico que marcó el inicio de su camino en esta industria. Aunque en sus primeras etapas no tuvo gran impacto global, Samsung fue creciendo con firmeza, enfocándose en la innovación y el desarrollo tecnológico."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Frame CornerRadius="20"
+HasShadow="True"
+Padding="0"
+BorderColor="Transparent"
+WidthRequest="800"
+HorizontalOptions="Center"
+Margin="0,10,0,30">
+
+                <Image Source="samsu.jpg"
+    Aspect="AspectFill"
+    HeightRequest="450"
+    WidthRequest="800"
+    HorizontalOptions="Center"
+    VerticalOptions="Center">
+                </Image>
+            </Frame>
+
+            <Label 
+ Text="El gran punto de inflexión llegó en la década del 2000. Samsung comenzó a destacar con teléfonos como el SGH-T100 (2002), uno de los primeros en usar una pantalla TFT a color, y el D500 (2004), que tuvo una gran acogida por su diseño deslizante y funciones multimedia avanzadas para la época. Sin embargo, fue con la llegada del Samsung SGH-D900 y otros modelos ultra delgados que la marca se posicionó fuertemente en el mercado global."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+            <Label 
+ Text="En 2009, Samsung lanzó su primer teléfono con sistema operativo Android, el Samsung Galaxy i7500, iniciando una nueva era. Pero el verdadero cambio ocurrió en 2010 con el lanzamiento del Samsung Galaxy S, el primero de una línea que revolucionaría la industria móvil. El Galaxy S ofrecía un diseño moderno, una interfaz fluida y un potente hardware que lo posicionaron como una alternativa seria al iPhone."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="A partir de ahí, la serie Galaxy S se convirtió en el buque insignia de la marca. Con cada nueva versión (S2, S3, S4, etc.), Samsung introdujo mejoras notables en pantalla, cámara, rendimiento y diseño. En paralelo, lanzó otras series como la Galaxy Note en 2011, que popularizó los teléfonos con pantallas grandes y el uso del lápiz digital (S Pen)."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="Desde entonces, Samsung ha seguido desarrollando teléfonos plegables, como el Galaxy Z Flip y el Z Fold, mientras continúa perfeccionando sus líneas Galaxy S y Note (que ahora se ha fusionado con la serie S Ultra). En la actualidad, Samsung se mantiene como uno de los principales fabricantes de teléfonos del mundo, combinando diseño, tecnología de punta y una amplia variedad de modelos para diferentes segmentos del mercado."
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Label 
+ Text="A continuación te mostramos lo más reciente de la marca"
+FontSize="18"
+FontFamily="oswald"
+ TextColor="White"
+ HorizontalTextAlignment="Justify"
+ VerticalOptions="Center"
+ WidthRequest="980"
+ MaximumWidthRequest="1500"
+ Margin="10,18"/>
+
+            <Grid WidthRequest="980"
+RowSpacing="40"
+ColumnSpacing="30"
+HorizontalOptions="Center"
+Margin="0,30,0,50">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Teléfono 1 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Samsung S25 Ultra"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="samsungs25ultra.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Samsungs25ultra"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 2 -->
+                <VerticalStackLayout Grid.Row="0" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Samsung S25 Plus"
+                     FontSize="18"
+                     FontFamily="oswald"
+                     TextColor="White"
+                     HorizontalTextAlignment="Center"
+                     Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+                      StrokeThickness="0">
+                        <Image Source="samsungs25lus.jpg"
+                         Aspect="AspectFill"
+                         HeightRequest="350"
+                         WidthRequest="300"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="samsungs25plus"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 3 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="0" HorizontalOptions="Center">
+                    <Label Text="Samsung S25"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="s255.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="samsungs25"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- Teléfono 4 -->
+                <VerticalStackLayout Grid.Row="1" Grid.Column="1" HorizontalOptions="Center">
+                    <Label Text="Samsung S25 Edge"
+         FontSize="18"
+         FontFamily="oswald"
+         TextColor="White"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,8"/>
+                    <Border StrokeShape="RoundRectangle 20"
+          StrokeThickness="0">
+                        <Image Source="s25edge.jpg"
+             Aspect="AspectFill"
+             HeightRequest="350"
+             WidthRequest="300"
+             HorizontalOptions="Center"
+             VerticalOptions="Center">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="samsungs25edge"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Border>
+                </VerticalStackLayout>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

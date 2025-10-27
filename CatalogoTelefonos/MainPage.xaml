@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CatalogoTelefonos.MainPage"
+             BackgroundColor="#1A1A47">
+
+   
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!-- Logo y nombre -->
+            <Frame CornerRadius="20"
+               Padding="15"
+               BackgroundColor="White"
+               HasShadow="True"
+               HorizontalOptions="Center">
+
+                <HorizontalStackLayout Spacing="15" VerticalOptions="Center">
+                    <Image Source="ph.jpg" WidthRequest="60" HeightRequest="60" Aspect="AspectFit"/>
+                    <Label Text="PIXEL HYPE"
+                       FontFamily="jersey"
+                       FontSize="28"
+                       VerticalOptions="Center"
+                       FontAttributes="Bold"
+                       TextColor="#333333"/>
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Texto descriptivo -->
+            <Label Text="Pixel Hype es un catálogo informativo de celulares diseñado para quienes disfrutan descubrir lo último en tecnología móvil. Aquí puedes explorar los modelos más recientes de las principales marcas del mercado, con información clara y actualizada. Con Pixel Hype, comparar teléfonos es fácil y visual. Cada ficha muestra sus características técnicas, fotografías reales y detalles que marcan la diferencia entre un modelo y otro. Además, nuestro catálogo incluye reseñas breves, lanzamientos destacados y consejos para elegir el dispositivo que mejor se adapta a ti. Ya sea que busques rendimiento, cámara, batería o diseño, Pixel Hype te guía paso a paso."
+               FontSize="18"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Justify"
+               VerticalOptions="Center"
+               WidthRequest="980"
+               MaximumWidthRequest="1500"
+               Margin="10,0"/>
+
+            <Label Text="La interfaz ha sido pensada para ofrecerte una experiencia fluida, intuitiva y atractiva. Solo desliza, toca y descubre todo lo que el mundo de los smartphones tiene para ofrecerte. Nuestro objetivo es mantenerte siempre informado, con datos fiables y contenido visual de alta calidad. En Pixel Hype, creemos que cada teléfono cuenta una historia: la tuya. Por eso, queremos ayudarte a encontrar el que mejor se adapte a tu ritmo de vida, a tus gustos y a tus necesidades. Bienvenido a Pixel Hype, tu punto de encuentro con la innovación móvil."
+               FontSize="18"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Justify"
+               VerticalOptions="Center"
+               WidthRequest="980"
+               MaximumWidthRequest="1500"
+               Margin="10,0"/>
+
+            <Label Text="A continuación podrás indagar un poco sobre lo que tenemos:"
+               FontSize="18"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Justify"
+               VerticalOptions="Center"
+               WidthRequest="980"
+               MaximumWidthRequest="1500"
+               Margin="10,0"/>
+
+            <!-- GRID -->
+            <Grid x:Name="CelularesGrid"
+      WidthRequest="1000"
+      RowSpacing="20"
+      ColumnSpacing="20">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- 👇 Estados visuales para adaptar columnas según el tamaño -->
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup x:Name="AdaptiveStates">
+                        <!-- Pantalla grande -->
+                        <VisualState x:Name="Default">
+                            <VisualState.Setters>
+                                <Setter Property="ColumnDefinitions" 
+                            Value="*,*" />
+                            </VisualState.Setters>
+                        </VisualState>
+
+                        <!-- Pantalla pequeña (teléfono) -->
+                        <VisualState x:Name="Narrow">
+                            <VisualState.Setters>
+                                <Setter Property="ColumnDefinitions"
+                            Value="*" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+
+                <!-- Contenido -->
+                <Border Grid.Row="0" Grid.Column="0" StrokeShape="RoundRectangle 20" StrokeThickness="0">
+                    <Image Source="xiaomi.jpg" Aspect="AspectFill" HeightRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCelular1Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Border>
+
+                <Border Grid.Row="0" Grid.Column="1" StrokeShape="RoundRectangle 20" StrokeThickness="0">
+                    <Image Source="samsung.jpg" Aspect="AspectFill" HeightRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCelular2Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="0" StrokeShape="RoundRectangle 20" StrokeThickness="0">
+                    <Image Source="hhh.jpg" Aspect="AspectFill" HeightRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCelular3Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Border>
+
+                <Border Grid.Row="1" Grid.Column="1" StrokeShape="RoundRectangle 20" StrokeThickness="0">
+                    <Image Source="vivo.jpg" Aspect="AspectFill" HeightRequest="150">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCelular4Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </Border>
+            </Grid>
+
+            <Label Text="MEJORES CELULARES EN CAMARAS"
+               FontSize="22"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               WidthRequest="980"
+               MaximumWidthRequest="1500"
+               Margin="0,30"/>
+
+            <Frame CornerRadius="20"
+               HasShadow="True"
+               Padding="0"
+               BorderColor="Transparent"
+               WidthRequest="1000"
+               HorizontalOptions="Center"
+               Margin="0,10,0,30">
+                <Image Source="camarass.jpg"
+                   Aspect="AspectFill"
+                   HeightRequest="430"
+                   WidthRequest="1000"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCamaraTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+
+            <Label Text="LOS CELULARES MAS COMPLETOS DE 2025"
+               FontSize="22"
+               FontFamily="oswald"
+               TextColor="White"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center"
+               WidthRequest="980"
+               MaximumWidthRequest="1500"
+               Margin="0,30"/>
+
+            <Frame CornerRadius="20"
+               HasShadow="True"
+               Padding="0"
+               BorderColor="Transparent"
+               WidthRequest="1000"
+               HorizontalOptions="Center"
+               Margin="0,10,0,30">
+                <Image Source="m.jpg"
+                   Aspect="AspectFill"
+                   HeightRequest="430"
+                   WidthRequest="1000"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnCompletosTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+<!--espacio para commits-->
+    <!--pruebas para commits-->
+    <!--modificando el proyecto-->
+</ContentPage>
